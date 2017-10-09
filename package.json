@@ -1,7 +1,7 @@
 {
-  "name": "parse-iec-binary",
+  "name": "parse-iec",
   "version": "1.0.0",
-  "description": "Parses Mi and Gi from IEC prefixes",
+  "description": "Parse mi, gi and ti from IEC formatted byte strings",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomcartwrightuk/parse-iec-binary.git"
+    "url": "git+https://github.com/tomcartwrightuk/parse-iec.git"
   },
   "author": "tomcartwrightuk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tomcartwrightuk/parse-iec-binary/issues"
+    "url": "https://github.com/tomcartwrightuk/parse-iec/issues"
   },
-  "homepage": "https://github.com/tomcartwrightuk/parse-iec-binary#readme",
+  "homepage": "https://github.com/tomcartwrightuk/parse-iec#readme",
   "devDependencies": {
     "mocha": "^4.0.1"
   }

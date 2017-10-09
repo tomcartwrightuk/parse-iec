@@ -1,6 +1,6 @@
 # Parse IEC binary
 
-Utility to parse a string bytes (ex: 1TB) to bytes (1099511627776).
+Utility to parse a bytes (ex: 1Gi) to a number megabytes 1024).
 NOTE: operates only on *ints*
 
 ## Usage
@@ -12,4 +12,7 @@ parseIec.parse('2gi')
 
 parseIec.parse('512mi')
 // output: 512
+
+parseIec.parse('2ti')
+// output: 2097152
 ```
